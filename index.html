@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Grenciador de Estacionamento</h1>
+    </header>
+
+    <div class="box-cadastro">
+
+        <input type="text" class="cliente" id="cliente" placeholder="Digite o nome do Cliente">
+        <input type="text" id="nome" placeholder="Digite o nome do veiculo">
+        <input type="text" id="placa" placeholder="Digite a placa do veiculo">
+
+        <button id="cadastrar">ADICIONAR</button>
+        
+    </div>
+
+    <table class="tabela">
+        <thead >
+            <tr>
+                <th class="cliente">Cliente</th>
+                <th>Nome</th>
+                <th>Placa</th>
+                <th>Entrada</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="patio">
+
+        </tbody>
+    </table>
+    
+    <script src="js-ts/script.js"></script>
+    <script src="https://kit.fontawesome.com/e11c7df7a9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

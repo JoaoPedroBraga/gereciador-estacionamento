@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    
+}
+header{
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+    color: #112B3C;
+}
+.box-cadastro{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.box-cadastro input{
+    width: 250px;
+    height: 20px;
+    margin-top:15px ;
+    padding: 15px;
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #112B3C;
+    text-transform: uppercase;
+}
+.box-cadastro button{
+    margin-top: 30px;
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #112B3C;
+    background-color: #205375;
+    color: #fff;
+    transition: 0.3s;
+    
+}
+.box-cadastro button:hover{
+    background-color: #F66B0E;
+}
+table{
+    width: 90%;
+    margin: 25px auto;
+    border-collapse: collapse;
+}
+thead{
+    text-align: center;
+}
+th{
+    border-bottom:2px solid #112B3C;
+}
+thead :last-child{
+    width:6%;
+    padding: 1%;
+}
+
+td{
+    text-align: center;
+    height: 50px;
+}
+i{
+    color: #F66B0E;
+    cursor: pointer;
+    font-size: 20px;
+}
+i:hover{
+    color: #112B3C;
+}
+
+/* linhas pares (even) */
+.tabela tbody tr:nth-child(even) {
+    background-color: #205375;
+}
+/* linhas ímpares (odd) */
+.tabela tbody tr:nth-child(odd) {
+    background-color: #EFEFEF;
+}
